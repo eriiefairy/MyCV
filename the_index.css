@@ -1,0 +1,85 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    background-color: #edede9;
+  }
+
+  /* Set default font styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+
+  h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: #81b29a;
+  }
+
+  /* Set styles for the header */
+  header {
+    font-family: fantasy;
+    text-decoration: underline;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #708d81;
+  }
+
+  /* Set styles for sections */
+  section {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  /* Set styles for contact details section */
+  section ul {
+    list-style-type: circle;
+  }
+
+  section ul li {
+    margin-bottom: 5px;
+  }
+
+  section ul li a {
+    color: blue;
+    text-decoration: none;
+  }
+
+  section ul li a:hover {
+    text-decoration: underline;
+  }
+
+  /* Set styles for skills and competencies section */
+  section ul.skills {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+
+  /* Set styles for education section */
+  section p.education {
+    margin-bottom: 10px;
+  }
+
+  /* Set styles for work experience section */
+  section p.work {
+    margin-bottom: 10px;
+  }
+
+  /* Set media queries for responsive layout */
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 24px;
+    }
+
+    h2 {
+      font-size: 18px;
+    }
+
+    section {
+      margin-bottom: 20px;
+    }
+  }
